@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9a87e6ca.css",
+    "main.js": "/static/js/main.393b9121.js",
+    "static/media/vishalKrYadav.jpg": "/static/media/vishalKrYadav.e60a8905f09e7967e03f.jpg",
+    "static/media/profileDefault.png": "/static/media/profileDefault.52b19521fc9141bb7e42.png",
+    "static/media/cc-logo.svg": "/static/media/cc-logo.34f79399807a44da2b6af75aa261555e.svg",
+    "index.html": "/index.html",
+    "main.9a87e6ca.css.map": "/static/css/main.9a87e6ca.css.map",
+    "main.393b9121.js.map": "/static/js/main.393b9121.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a87e6ca.css",
+    "static/js/main.393b9121.js"
+  ]
+}

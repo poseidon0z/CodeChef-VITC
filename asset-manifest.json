@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/CodeChef-website/static/css/main.9a87e6ca.css",
-    "main.js": "/CodeChef-website/static/js/main.e839515a.js",
-    "static/media/vishalKrYadav.jpg": "/CodeChef-website/static/media/vishalKrYadav.e60a8905f09e7967e03f.jpg",
-    "static/media/profileDefault.png": "/CodeChef-website/static/media/profileDefault.52b19521fc9141bb7e42.png",
-    "static/media/cc-logo.svg": "/CodeChef-website/static/media/cc-logo.34f79399807a44da2b6af75aa261555e.svg",
-    "index.html": "/CodeChef-website/index.html",
-    "main.9a87e6ca.css.map": "/CodeChef-website/static/css/main.9a87e6ca.css.map",
-    "main.e839515a.js.map": "/CodeChef-website/static/js/main.e839515a.js.map"
+    "main.css": "/CodeChef-VITC/static/css/main.9a87e6ca.css",
+    "main.js": "/CodeChef-VITC/static/js/main.d00f2680.js",
+    "static/media/vishalKrYadav.jpg": "/CodeChef-VITC/static/media/vishalKrYadav.e60a8905f09e7967e03f.jpg",
+    "static/media/profileDefault.png": "/CodeChef-VITC/static/media/profileDefault.52b19521fc9141bb7e42.png",
+    "static/media/cc-logo.svg": "/CodeChef-VITC/static/media/cc-logo.34f79399807a44da2b6af75aa261555e.svg",
+    "index.html": "/CodeChef-VITC/index.html",
+    "main.9a87e6ca.css.map": "/CodeChef-VITC/static/css/main.9a87e6ca.css.map",
+    "main.d00f2680.js.map": "/CodeChef-VITC/static/js/main.d00f2680.js.map"
   },
   "entrypoints": [
     "static/css/main.9a87e6ca.css",
-    "static/js/main.e839515a.js"
+    "static/js/main.d00f2680.js"
   ]
 }

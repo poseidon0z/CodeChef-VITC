@@ -9,7 +9,7 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="CodeChef-VITC/" element={<Home />} />
+        <Route path="/" element={<Home />} />
       </Routes>
       <Footer />
     </Router>

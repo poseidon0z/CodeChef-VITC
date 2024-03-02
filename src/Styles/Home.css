@@ -183,3 +183,156 @@
     max-width: 171px;
   }
 }
+
+.main-departments{
+  background-image: linear-gradient(#d8e6ff99,#f1f6ff83);
+  padding-bottom: 60px;
+}
+
+.departments{
+  max-width: 1280px;
+  background: #fff;
+  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.1);
+  box-shadow: 0 1px 3px rgba(0,0,0,.1);
+  border-radius: 8px;
+  margin: 0 auto;
+  padding: 32px 64px;
+}
+
+.departments h2{
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0);
+  letter-spacing: 0;
+  color: #4a4a4a;
+  outline: 0;
+  display: block;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem !important;
+}
+
+.departments-list{
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  flex-wrap: wrap !important;
+}
+
+.depatment-card{
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 16px;
+  padding: 20px 24px;
+  -webkit-box-shadow: 0 4px 12px rgba(207,216,220,.4);
+  box-shadow: 0 4px 12px rgba(207,216,220,.4);
+  border-radius: 8px;
+  min-width: 300px;
+  max-width: 300px;
+  background-color: #fff;
+}
+
+.depatment-card p{
+  margin-top: 8px;
+  margin-bottom: 0 !important;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #73757b;
+  white-space: initial;
+}
+
+.card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-top img{
+  width: 48px;
+  height: 48px;
+}
+
+.card-top h3{
+  box-sizing: border-box;
+  margin: 0;
+  background: rgba(0, 0, 0, 0);
+  letter-spacing: 0;
+  color: #4a4a4a;
+  outline: 0;
+  display: block;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.department-members{
+  text-decoration: none;
+  background: #fff;
+  border: 1px solid #4079da;
+  border-radius: 4px;
+  padding: 9px 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  color: #4079da;
+  height: fit-content;
+  margin-top: auto;
+}
+
+.faculty-incharge{
+  margin: 0 auto;
+  padding: 32px 64px;
+}
+
+.faculty-incharge h2{
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0);
+  letter-spacing: 0;
+  color: #4a4a4a;
+  outline: 0;
+  display: block;
+  font-size: 2rem !important;
+  font-weight: bold;
+  margin-bottom: 2.5rem !important;
+}
+
+.content-para{
+  font-weight: 300 !important;
+}
+
+@media screen and (max-width: 820px){
+  .main-departments{
+    padding-bottom: 40px !important;
+  }
+
+  .faculty-incharge{
+    margin: 0 auto;
+    padding: 20px 5px;
+  }
+
+  .faculty-incharge h2{
+    margin-bottom: 1.75rem !important;
+  }
+
+  .faculty-content{
+    padding: 0 3rem !important;
+  }
+
+  .faculty-content img{
+    width: 300px !important;
+  }
+
+  .content-para{
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 620px){
+  .faculty-content{
+    flex-direction: column !important;
+    padding: 0 2rem !important;
+  }
+}

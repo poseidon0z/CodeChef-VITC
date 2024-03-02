@@ -1,7 +1,7 @@
 import React from "react";
 import "../Styles/Home.css";
-import "../Styles/Departments.css";
 import defaultPic from "../Asstes/profileDefault.png";
+import facultyPic from "../Asstes/tempPic.jpg";
 import HeroCarousel from "../Components/HeroCarousel";
 
 const Home = () => {
@@ -461,7 +461,7 @@ const Home = () => {
             </div>
             <div className="depatment-card">
               <div className="card-top">
-                <h3>Social Media</h3>
+                <h3>Finance</h3>
                 <img
                   src="https://cdn.codechef.com/images/self-learning/icons/python.svg"
                   alt="CP Logo"
@@ -535,6 +535,37 @@ const Home = () => {
               </div>
               <div className="department-members">20 Members</div>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="faculty-incharge">
+        <h2 style={{ textAlign: "center" }}>Faculty Incharge</h2>
+        <div
+          className="faculty-content d-flex align-items-center justify-content-center gap-3"
+          style={{ padding: "0 5rem" }}
+        >
+          <img
+            src={facultyPic}
+            alt="Faculty Incharge"
+            className=""
+            style={{
+              width: "450px",
+              borderRadius: "10px",
+              boxShadow: "0 4px 12px rgba(207,216,220,.4) !important",
+            }}
+          />
+          <div>
+            <p className="content-para">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi
+              sint rerum excepturi ipsum similique, omnis exercitationem ratione
+              pariatur, dolorum iste eos inventore assumenda ut est ducimus
+              error voluptates voluptatem ab dolorem enim quaerat sequi eveniet.
+              Fugit vel obcaecati iusto non eligendi! Veritatis, minima et
+              reiciendis blanditiis atque ipsum est natus.
+            </p>
+            <p style={{ fontSize: "14px", fontWeight: "600" }}>
+              - Vishal Kumar Yadav
+            </p>
           </div>
         </div>
       </div>

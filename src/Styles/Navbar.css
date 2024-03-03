@@ -48,7 +48,7 @@ header {
   align-items: center;
 }
 
-.rightHeader .headerBtn button {
+.rightHeader .headerBtn a {
   line-height: 32px;
   text-align: center;
   font-size: 14px;
@@ -62,9 +62,11 @@ header {
   margin: 0;
   background: rgba(0, 0, 0, 0);
   transition-duration: 0.3s;
+  padding: 0.7em 1em 0.7em 1em;
+  text-decoration: none;
 }
 
-.rightHeader .headerBtn button:hover {
+.rightHeader .headerBtn a:hover {
   background-color: #2a67b1;
   color: white;
 }

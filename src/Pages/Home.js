@@ -3,6 +3,7 @@ import "../Styles/Home.css";
 import defaultPic from "../Asstes/profileDefault.png";
 import facultyPic from "../Asstes/tempPic.jpg";
 import HeroCarousel from "../Components/HeroCarousel";
+import GalleryCarousel from "../Components/GalleryCarousel";
 
 const Home = () => {
   return (
@@ -537,6 +538,19 @@ const Home = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div
+        className="gallery"
+        style={{
+          maxWidth: "100%",
+          backgroundColor: "#2e3444",
+          paddingBottom: "2rem",
+        }}
+      >
+        <h2 style={{ textAlign: "center", color: "#fff", paddingTop: "2rem" }}>
+          Gallery
+        </h2>
+        <GalleryCarousel />
       </div>
       <div className="faculty-incharge">
         <h2 style={{ textAlign: "center" }}>Faculty Incharge</h2>

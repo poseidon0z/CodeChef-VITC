@@ -1,5 +1,5 @@
-import React from "react";
-import "../Styles/Navbar.css";
+import React from 'react';
+import '../Styles/Navbar.css';
 
 const Navbar = () => {
   return (
@@ -92,7 +92,7 @@ const Navbar = () => {
             </nav>
           </div>
           <div className="headerBtn">
-            <button>Join Us!</button>
+            <a href="/joinus">Join Us!</a>
           </div>
         </div>
       </header>

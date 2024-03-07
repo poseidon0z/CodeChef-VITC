@@ -4,6 +4,7 @@ import defaultPic from '../Asstes/profileDefault.png';
 import facultyPic from '../Asstes/tempPic.jpg';
 import HeroCarousel from '../Components/HeroCarousel';
 import ProfileCard from '../Components/ProfileCard';
+import GalleryCarousel from '../Components/GalleryCarousel';
 import vishalKrYadav from '../Asstes/vishalKrYadav.jpg';
 
 const Home = () => {
@@ -541,6 +542,19 @@ const Home = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div
+        className="gallery"
+        style={{
+          maxWidth: '100%',
+          backgroundColor: '#2e3444',
+          paddingBottom: '2rem',
+        }}
+      >
+        <h2 style={{ textAlign: 'center', color: '#fff', paddingTop: '2rem' }}>
+          Gallery
+        </h2>
+        <GalleryCarousel />
       </div>
       <div className="faculty-incharge">
         <h2 style={{ textAlign: 'center' }}>Faculty Incharge</h2>

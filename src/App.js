@@ -4,10 +4,11 @@ import './Styles/App.css';
 import Home from './Pages/Home';
 import Join from './Pages/Join';
 import Footer from './Components/Footer';
-
+import BackToTop from './Components/BackToTop';
 function App() {
   return (
     <Router>
+      <BackToTop />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

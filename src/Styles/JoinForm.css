@@ -14,6 +14,21 @@ form {
     padding: 2em;
 }
 
+.blur {
+    filter: blur(5px);
+}
+
+.closed-thing {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border: 3px solid #055160;
+    border-radius: 20px;
+    padding: 1.5em;
+}
+
 .recruitment-heading {
     text-align: center;
 }

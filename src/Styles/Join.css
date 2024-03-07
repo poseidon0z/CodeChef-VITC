@@ -1,5 +1,11 @@
 .joinarea {
-    padding-top: 150px;
+    padding-top: 70px;
     background-image: linear-gradient(#c6dcfea3, #d8e6ff99);
     padding-bottom: 50px;
+}
+
+@media screen and (max-width: 965px) {
+    .joinarea {
+        padding-top: 140px;
+    }
 }

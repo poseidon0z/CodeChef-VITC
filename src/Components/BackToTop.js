@@ -28,8 +28,8 @@ function BackToTop() {
         <button
           style={{
             position: 'fixed',
-            bottom: '1em',
-            right: '1em',
+            bottom: '1.5em',
+            right: '1.5em',
             padding: '4px',
             borderRadius: '50%',
             backgroundColor: '#2e3444',
@@ -40,8 +40,8 @@ function BackToTop() {
           <FaArrowUp
             style={{
               boxSizing: 'border-box',
-              width: '2em',
-              height: '2em',
+              width: '1.5em',
+              height: '1.5em',
               borderRadius: '50%',
               color: '#fff',
             }}

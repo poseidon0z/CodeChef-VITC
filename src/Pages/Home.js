@@ -3,6 +3,8 @@ import '../Styles/Home.css';
 import defaultPic from '../Asstes/profileDefault.png';
 import facultyPic from '../Asstes/tempPic.jpg';
 import HeroCarousel from '../Components/HeroCarousel';
+import ProfileCard from '../Components/ProfileCard';
+import vishalKrYadav from '../Asstes/vishalKrYadav.jpg';
 
 const Home = () => {
   return (
@@ -568,6 +570,30 @@ const Home = () => {
             <p style={{ fontSize: '14px', fontWeight: '600' }}>
               - Vishal Kumar Yadav
             </p>
+          </div>
+        </div>
+      </div>
+      <div className="presidents">
+        <h2 style={{ textAlign: 'center' }}>Our Presidents</h2>
+        <div className="row justify-content-around">
+          <div className="col-md-5">
+            <ProfileCard
+              name="Sidhhart Tiwari"
+              year="2023-24"
+              content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, similique. Et modi omnis placeat facere culpa necessitatibus assumenda corporis eligendi."
+              linkedin="/"
+              insta="/"
+            ></ProfileCard>
+          </div>
+          <div className="col-md-5">
+            <ProfileCard
+              name="Something else"
+              year="2024-25"
+              content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, similique. Et modi omnis placeat facere culpa necessitatibus assumenda corporis eligendi."
+              linkedin="/"
+              insta="/"
+              img={vishalKrYadav}
+            ></ProfileCard>
           </div>
         </div>
       </div>

@@ -343,3 +343,20 @@
     padding: 0 2rem !important;
   }
 }
+
+.presidents {
+  padding: 1em;
+  background-image: linear-gradient(#c6dcfea3, #d8e6ff99);
+}
+
+.presidents h2 {
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0);
+  letter-spacing: 0;
+  color: #4a4a4a;
+  outline: 0;
+  display: block;
+  font-size: 2rem !important;
+  font-weight: bold;
+  margin: 0.5em;
+}

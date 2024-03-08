@@ -1,9 +1,11 @@
-import React from "react";
-import "../Styles/Home.css";
-import defaultPic from "../Asstes/profileDefault.png";
-import facultyPic from "../Asstes/tempPic.jpg";
-import HeroCarousel from "../Components/HeroCarousel";
-import GalleryCarousel from "../Components/GalleryCarousel";
+import React from 'react';
+import '../Styles/Home.css';
+import defaultPic from '../Asstes/profileDefault.png';
+import facultyPic from '../Asstes/tempPic.jpg';
+import HeroCarousel from '../Components/HeroCarousel';
+import ProfileCard from '../Components/ProfileCard';
+import GalleryCarousel from '../Components/GalleryCarousel';
+import vishalKrYadav from '../Asstes/vishalKrYadav.jpg';
 
 const Home = () => {
   return (
@@ -36,7 +38,7 @@ const Home = () => {
                   <a
                     href="/"
                     className="connection-link"
-                    style={{ textDecoration: "none" }}
+                    style={{ textDecoration: 'none' }}
                     target="_blank"
                   >
                     <button>
@@ -52,7 +54,7 @@ const Home = () => {
                   <a
                     href="/"
                     className="connection-link"
-                    style={{ textDecoration: "none" }}
+                    style={{ textDecoration: 'none' }}
                     target="_blank"
                   >
                     <button>
@@ -102,9 +104,9 @@ const Home = () => {
                     src={defaultPic}
                     className="rounded-circle mx-1"
                     style={{
-                      height: "38px",
-                      width: "38px",
-                      objectFit: "cover",
+                      height: '38px',
+                      width: '38px',
+                      objectFit: 'cover',
                     }}
                     alt="Lead Profile Pic"
                   />
@@ -112,14 +114,14 @@ const Home = () => {
                     <p
                       className="card-subtitle"
                       style={{
-                        fontWeight: "500",
-                        fontSize: "14px !important",
-                        color: "#546e7a !important",
+                        fontWeight: '500',
+                        fontSize: '14px !important',
+                        color: '#546e7a !important',
                       }}
                     >
                       <a
                         href="/"
-                        style={{ textDecoration: "none", color: "inherit" }}
+                        style={{ textDecoration: 'none', color: 'inherit' }}
                       >
                         Nikhil Iyer
                       </a>
@@ -131,9 +133,9 @@ const Home = () => {
                     src={defaultPic}
                     className="rounded-circle mx-1"
                     style={{
-                      height: "38px",
-                      width: "38px",
-                      objectFit: "cover",
+                      height: '38px',
+                      width: '38px',
+                      objectFit: 'cover',
                     }}
                     alt="Lead Profile Pic"
                   />
@@ -141,14 +143,14 @@ const Home = () => {
                     <p
                       className="card-subtitle"
                       style={{
-                        fontWeight: "500",
-                        fontSize: "14px !important",
-                        color: "#546e7a !important",
+                        fontWeight: '500',
+                        fontSize: '14px !important',
+                        color: '#546e7a !important',
                       }}
                     >
                       <a
                         href="/"
-                        style={{ textDecoration: "none", color: "inherit" }}
+                        style={{ textDecoration: 'none', color: 'inherit' }}
                       >
                         Aditi Jha
                       </a>
@@ -178,9 +180,9 @@ const Home = () => {
                     src={defaultPic}
                     className="rounded-circle mx-1"
                     style={{
-                      height: "38px",
-                      width: "38px",
-                      objectFit: "cover",
+                      height: '38px',
+                      width: '38px',
+                      objectFit: 'cover',
                     }}
                     alt="Lead Profile Pic"
                   />
@@ -188,14 +190,14 @@ const Home = () => {
                     <p
                       className="card-subtitle"
                       style={{
-                        fontWeight: "500",
-                        fontSize: "14px !important",
-                        color: "#546e7a !important",
+                        fontWeight: '500',
+                        fontSize: '14px !important',
+                        color: '#546e7a !important',
                       }}
                     >
                       <a
                         href="/"
-                        style={{ textDecoration: "none", color: "inherit" }}
+                        style={{ textDecoration: 'none', color: 'inherit' }}
                       >
                         Nikhil Iyer
                       </a>
@@ -207,9 +209,9 @@ const Home = () => {
                     src={defaultPic}
                     className="rounded-circle mx-1"
                     style={{
-                      height: "38px",
-                      width: "38px",
-                      objectFit: "cover",
+                      height: '38px',
+                      width: '38px',
+                      objectFit: 'cover',
                     }}
                     alt="Lead Profile Pic"
                   />
@@ -217,14 +219,14 @@ const Home = () => {
                     <p
                       className="card-subtitle"
                       style={{
-                        fontWeight: "500",
-                        fontSize: "14px !important",
-                        color: "#546e7a !important",
+                        fontWeight: '500',
+                        fontSize: '14px !important',
+                        color: '#546e7a !important',
                       }}
                     >
                       <a
                         href="/"
-                        style={{ textDecoration: "none", color: "inherit" }}
+                        style={{ textDecoration: 'none', color: 'inherit' }}
                       >
                         Aditi Jha
                       </a>
@@ -254,9 +256,9 @@ const Home = () => {
                     src={defaultPic}
                     className="rounded-circle mx-1"
                     style={{
-                      height: "38px",
-                      width: "38px",
-                      objectFit: "cover",
+                      height: '38px',
+                      width: '38px',
+                      objectFit: 'cover',
                     }}
                     alt="Lead Profile Pic"
                   />
@@ -264,14 +266,14 @@ const Home = () => {
                     <p
                       className="card-subtitle"
                       style={{
-                        fontWeight: "500",
-                        fontSize: "14px !important",
-                        color: "#546e7a !important",
+                        fontWeight: '500',
+                        fontSize: '14px !important',
+                        color: '#546e7a !important',
                       }}
                     >
                       <a
                         href="/"
-                        style={{ textDecoration: "none", color: "inherit" }}
+                        style={{ textDecoration: 'none', color: 'inherit' }}
                       >
                         Nikhil Iyer
                       </a>
@@ -283,9 +285,9 @@ const Home = () => {
                     src={defaultPic}
                     className="rounded-circle mx-1"
                     style={{
-                      height: "38px",
-                      width: "38px",
-                      objectFit: "cover",
+                      height: '38px',
+                      width: '38px',
+                      objectFit: 'cover',
                     }}
                     alt="Lead Profile Pic"
                   />
@@ -293,14 +295,14 @@ const Home = () => {
                     <p
                       className="card-subtitle"
                       style={{
-                        fontWeight: "500",
-                        fontSize: "14px !important",
-                        color: "#546e7a !important",
+                        fontWeight: '500',
+                        fontSize: '14px !important',
+                        color: '#546e7a !important',
                       }}
                     >
                       <a
                         href="/"
-                        style={{ textDecoration: "none", color: "inherit" }}
+                        style={{ textDecoration: 'none', color: 'inherit' }}
                       >
                         Aditi Jha
                       </a>
@@ -330,9 +332,9 @@ const Home = () => {
                     src={defaultPic}
                     className="rounded-circle mx-1"
                     style={{
-                      height: "38px",
-                      width: "38px",
-                      objectFit: "cover",
+                      height: '38px',
+                      width: '38px',
+                      objectFit: 'cover',
                     }}
                     alt="Lead Profile Pic"
                   />
@@ -340,14 +342,14 @@ const Home = () => {
                     <p
                       className="card-subtitle"
                       style={{
-                        fontWeight: "500",
-                        fontSize: "14px !important",
-                        color: "#546e7a !important",
+                        fontWeight: '500',
+                        fontSize: '14px !important',
+                        color: '#546e7a !important',
                       }}
                     >
                       <a
                         href="/"
-                        style={{ textDecoration: "none", color: "inherit" }}
+                        style={{ textDecoration: 'none', color: 'inherit' }}
                       >
                         Nikhil Iyer
                       </a>
@@ -359,9 +361,9 @@ const Home = () => {
                     src={defaultPic}
                     className="rounded-circle mx-1"
                     style={{
-                      height: "38px",
-                      width: "38px",
-                      objectFit: "cover",
+                      height: '38px',
+                      width: '38px',
+                      objectFit: 'cover',
                     }}
                     alt="Lead Profile Pic"
                   />
@@ -369,14 +371,14 @@ const Home = () => {
                     <p
                       className="card-subtitle"
                       style={{
-                        fontWeight: "500",
-                        fontSize: "14px !important",
-                        color: "#546e7a !important",
+                        fontWeight: '500',
+                        fontSize: '14px !important',
+                        color: '#546e7a !important',
                       }}
                     >
                       <a
                         href="/"
-                        style={{ textDecoration: "none", color: "inherit" }}
+                        style={{ textDecoration: 'none', color: 'inherit' }}
                       >
                         Aditi Jha
                       </a>
@@ -406,9 +408,9 @@ const Home = () => {
                     src={defaultPic}
                     className="rounded-circle mx-1"
                     style={{
-                      height: "38px",
-                      width: "38px",
-                      objectFit: "cover",
+                      height: '38px',
+                      width: '38px',
+                      objectFit: 'cover',
                     }}
                     alt="Lead Profile Pic"
                   />
@@ -416,14 +418,14 @@ const Home = () => {
                     <p
                       className="card-subtitle"
                       style={{
-                        fontWeight: "500",
-                        fontSize: "14px !important",
-                        color: "#546e7a !important",
+                        fontWeight: '500',
+                        fontSize: '14px !important',
+                        color: '#546e7a !important',
                       }}
                     >
                       <a
                         href="/"
-                        style={{ textDecoration: "none", color: "inherit" }}
+                        style={{ textDecoration: 'none', color: 'inherit' }}
                       >
                         Nikhil Iyer
                       </a>
@@ -435,9 +437,9 @@ const Home = () => {
                     src={defaultPic}
                     className="rounded-circle mx-1"
                     style={{
-                      height: "38px",
-                      width: "38px",
-                      objectFit: "cover",
+                      height: '38px',
+                      width: '38px',
+                      objectFit: 'cover',
                     }}
                     alt="Lead Profile Pic"
                   />
@@ -445,14 +447,14 @@ const Home = () => {
                     <p
                       className="card-subtitle"
                       style={{
-                        fontWeight: "500",
-                        fontSize: "14px !important",
-                        color: "#546e7a !important",
+                        fontWeight: '500',
+                        fontSize: '14px !important',
+                        color: '#546e7a !important',
                       }}
                     >
                       <a
                         href="/"
-                        style={{ textDecoration: "none", color: "inherit" }}
+                        style={{ textDecoration: 'none', color: 'inherit' }}
                       >
                         Aditi Jha
                       </a>
@@ -482,9 +484,9 @@ const Home = () => {
                     src={defaultPic}
                     className="rounded-circle mx-1"
                     style={{
-                      height: "38px",
-                      width: "38px",
-                      objectFit: "cover",
+                      height: '38px',
+                      width: '38px',
+                      objectFit: 'cover',
                     }}
                     alt="Lead Profile Pic"
                   />
@@ -492,14 +494,14 @@ const Home = () => {
                     <p
                       className="card-subtitle"
                       style={{
-                        fontWeight: "500",
-                        fontSize: "14px !important",
-                        color: "#546e7a !important",
+                        fontWeight: '500',
+                        fontSize: '14px !important',
+                        color: '#546e7a !important',
                       }}
                     >
                       <a
                         href="/"
-                        style={{ textDecoration: "none", color: "inherit" }}
+                        style={{ textDecoration: 'none', color: 'inherit' }}
                       >
                         Nikhil Iyer
                       </a>
@@ -511,9 +513,9 @@ const Home = () => {
                     src={defaultPic}
                     className="rounded-circle mx-1"
                     style={{
-                      height: "38px",
-                      width: "38px",
-                      objectFit: "cover",
+                      height: '38px',
+                      width: '38px',
+                      objectFit: 'cover',
                     }}
                     alt="Lead Profile Pic"
                   />
@@ -521,14 +523,14 @@ const Home = () => {
                     <p
                       className="card-subtitle"
                       style={{
-                        fontWeight: "500",
-                        fontSize: "14px !important",
-                        color: "#546e7a !important",
+                        fontWeight: '500',
+                        fontSize: '14px !important',
+                        color: '#546e7a !important',
                       }}
                     >
                       <a
                         href="/"
-                        style={{ textDecoration: "none", color: "inherit" }}
+                        style={{ textDecoration: 'none', color: 'inherit' }}
                       >
                         Aditi Jha
                       </a>
@@ -544,30 +546,30 @@ const Home = () => {
       <div
         className="gallery"
         style={{
-          maxWidth: "100%",
-          backgroundColor: "#2e3444",
-          paddingBottom: "2rem",
+          maxWidth: '100%',
+          backgroundColor: '#2e3444',
+          paddingBottom: '2rem',
         }}
       >
-        <h2 style={{ textAlign: "center", color: "#fff", paddingTop: "2rem" }}>
+        <h2 style={{ textAlign: 'center', color: '#fff', paddingTop: '2rem' }}>
           Gallery
         </h2>
         <GalleryCarousel />
       </div>
       <div className="faculty-incharge">
-        <h2 style={{ textAlign: "center" }}>Faculty Incharge</h2>
+        <h2 style={{ textAlign: 'center' }}>Faculty Incharge</h2>
         <div
           className="faculty-content d-flex align-items-center justify-content-center gap-3"
-          style={{ padding: "0 5rem" }}
+          style={{ padding: '0 5rem' }}
         >
           <img
             src={facultyPic}
             alt="Faculty Incharge"
             className=""
             style={{
-              width: "450px",
-              borderRadius: "10px",
-              boxShadow: "0 4px 12px rgba(207,216,220,.4) !important",
+              width: '450px',
+              borderRadius: '10px',
+              boxShadow: '0 4px 12px rgba(207,216,220,.4) !important',
             }}
           />
           <div>
@@ -579,9 +581,33 @@ const Home = () => {
               Fugit vel obcaecati iusto non eligendi! Veritatis, minima et
               reiciendis blanditiis atque ipsum est natus.
             </p>
-            <p style={{ fontSize: "14px", fontWeight: "600" }}>
+            <p style={{ fontSize: '14px', fontWeight: '600' }}>
               - Vishal Kumar Yadav
             </p>
+          </div>
+        </div>
+      </div>
+      <div className="presidents">
+        <h2 style={{ textAlign: 'center' }}>Our Presidents</h2>
+        <div className="row justify-content-around">
+          <div className="col-md-5">
+            <ProfileCard
+              name="Sidhhart Tiwari"
+              year="2023-24"
+              content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, similique. Et modi omnis placeat facere culpa necessitatibus assumenda corporis eligendi."
+              linkedin="/"
+              insta="/"
+            ></ProfileCard>
+          </div>
+          <div className="col-md-5">
+            <ProfileCard
+              name="Something else"
+              year="2024-25"
+              content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, similique. Et modi omnis placeat facere culpa necessitatibus assumenda corporis eligendi."
+              linkedin="/"
+              insta="/"
+              img={vishalKrYadav}
+            ></ProfileCard>
           </div>
         </div>
       </div>

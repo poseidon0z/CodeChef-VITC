@@ -5,6 +5,7 @@ import Home from './Pages/Home';
 import Join from './Pages/Join';
 import Footer from './Components/Footer';
 import BackToTop from './Components/BackToTop';
+import CookOff from "./Events/CookOff";
 function App() {
   return (
     <Router>
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/joinus" element={<Join />} />
+        <Route path="/CookOff" element={<CookOff />} />
       </Routes>
       <Footer />
     </Router>

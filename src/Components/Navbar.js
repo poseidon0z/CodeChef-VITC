@@ -1,5 +1,6 @@
 import React from 'react';
 import '../Styles/Navbar.css';
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -47,9 +48,9 @@ const Navbar = () => {
                         aria-labelledby="navbarDropdown"
                       >
                         <li>
-                          <a className="dropdown-item" href="/">
+                          <Link className="dropdown-item" to="/CookOff">
                             Cook-Off 2024
-                          </a>
+                          </Link>
                         </li>
                         <li>
                           <a className="dropdown-item" href="/">
@@ -92,7 +93,7 @@ const Navbar = () => {
             </nav>
           </div>
           <div className="headerBtn">
-            <a href="/joinus">Join Us!</a>
+            <Link to="/joinus">Join Us!</Link>
           </div>
         </div>
       </header>
@@ -120,9 +121,9 @@ const Navbar = () => {
                       aria-labelledby="navbarDropdown"
                     >
                       <li>
-                        <a className="dropdown-item" href="/">
+                        <Link className="dropdown-item" to="/CookOff">
                           Cook-Off 2024
-                        </a>
+                        </Link>
                       </li>
                       <li>
                         <a className="dropdown-item" href="/">
@@ -132,9 +133,9 @@ const Navbar = () => {
                     </ul>
                   </li>
                   <li className="nav-item mx-2">
-                    <a href="/" className="nav-link active">
+                    <Link to="/CookOff" className="nav-link active">
                       Blogs
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item dropdown mx-2">
                     <a

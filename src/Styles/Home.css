@@ -335,12 +335,21 @@
   .content-para {
     font-size: 13px;
   }
+
+  .profile-card{
+    width: 300px !important;
+  }
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 840px) {
   .faculty-content {
     flex-direction: column !important;
     padding: 0 2rem !important;
+  }
+
+  .president-cards{
+    flex-direction: column !important;
+    width: 250px !important;
   }
 }
 
@@ -359,4 +368,13 @@
   font-size: 2rem !important;
   font-weight: bold;
   margin: 0.5em;
+}
+
+.president-cards{
+  padding: 0 5rem;;
+}
+
+.profile-card{
+  width: 400px !important;
+  padding: 1rem 0 !important;
 }

@@ -14,7 +14,7 @@ const CarouselTemp = ({ imagesArr }) => {
     >
       {imagesArr.map((ele, index) => (
         <Carousel.Item key={index}>
-          <img width="100%" alt={index} src={ele} />
+          <img width="100%" height="275px" alt={index} src={ele} />
         </Carousel.Item>
       ))}
     </Carousel>

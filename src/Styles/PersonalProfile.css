@@ -1,0 +1,93 @@
+.profile-box{
+    width: fit-content;
+    height: fit-content;
+    padding: 1.5rem 0rem !important;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow:0 10px 20px -2px rgba(0, 0, 0, 0.04), 0 10px 20px -2px rgba(0, 0, 0, 0.07) ;
+}
+
+.profile-left{
+    padding: 0 1rem !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.profile-left h4{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.profile-left p{
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.profile-box .profile-right{
+    padding: 0 1rem !important;
+}
+
+.profile-right h5{
+    font-size: 1rem !important;
+    font-weight: 500 !important;
+    margin-bottom: 0 !important;
+}
+
+.profile-right hr{
+    margin: 0.5rem 0 !important;
+    color: black !important;
+    background-color: currentColor;
+    border: 0;
+    opacity: .15;
+}
+
+.profile-email-regno{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.profile-email-regno h6{
+    font-size: 0.9rem !important;
+    font-weight: 400 !important;
+}
+
+.profile-email-regno p{
+    font-size: 0.8rem !important;
+    font-weight: 200 !important;
+}
+
+.profile-connect-box {
+    display: flex;
+    gap: 10px;
+}
+  
+.profile-connect-box a button {
+    background-color: #fff;
+    border: 1px solid rgba(19, 19, 19, 0.502);
+    border-radius: 5px;
+    color: black !important;
+    font-size: 10px;
+    padding: 5px 10px;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+  
+.profile-connect-box a button img {
+    width: 18px;
+    height: 18px;
+}
+
+@media screen and (max-width: 720px){
+    .profile-box{
+        flex-direction: column;
+        gap: 15px;
+    }
+}

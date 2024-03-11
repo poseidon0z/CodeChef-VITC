@@ -2,12 +2,33 @@ import React from 'react';
 import '../Styles/Home.css';
 import defaultPic from '../Asstes/profileDefault.png';
 import facultyPic from '../Asstes/tempPic.jpg';
-import HeroCarousel from '../Components/HeroCarousel';
-import ProfileCard from '../Components/ProfileCard';
-import GalleryCarousel from '../Components/GalleryCarousel';
-import vishalKrYadav from '../Asstes/vishalKrYadav.jpg';
+import HeroCarousel from "../Components/HeroCarousel";
+import GalleryCarousel from "../Components/GalleryCarousel";
+import PersonalProfile from "../Components/PersonalProfile";
+import siddhartTiwari from "../Asstes/siddhartTiwari.jpeg";
 
 const Home = () => {
+  const profileObj = [
+    {
+      name: "Siddhart Tiwari",
+      img: siddhartTiwari,
+      email: "siddharth.tiwari2021@vitstudent.ac.in",
+      position: "President 2023-24",
+      regNo: "21BCE1242",
+      linkedIn: "https://www.linkedin.com/in/siddharthtiwarii/",
+      instagram: "",
+    },
+    {
+      name: "Siddhart Tiwari",
+      img: siddhartTiwari,
+      email: "siddharth.tiwari2021@vitstudent.ac.in",
+      position: "President 2023-24",
+      regNo: "21BCE1242",
+      linkedIn: "https://www.linkedin.com/in/siddharthtiwarii/",
+      instagram: "",
+    },
+  ];
+
   return (
     <>
       <div className="main">
@@ -588,26 +609,11 @@ const Home = () => {
         </div>
       </div>
       <div className="presidents">
-        <h2 style={{ textAlign: "center" }}>Our Presidents</h2>
-        <div className="president-cards d-flex justify-content-evenly align-items-center">
-          <ProfileCard
-            className="profileCard"
-            name="Sidhhart Tiwari"
-            year="2023-24"
-            content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, similique. Et modi omnis placeat facere culpa necessitatibus assumenda corporis eligendi."
-            linkedin="/"
-            insta="/"
-          ></ProfileCard>
-
-          <ProfileCard
-            className="profileCard"
-            name="Something else"
-            year="2024-25"
-            content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, similique. Et modi omnis placeat facere culpa necessitatibus assumenda corporis eligendi."
-            linkedin="/"
-            insta="/"
-            img={vishalKrYadav}
-          ></ProfileCard>
+        <h2 style={{ textAlign: "center" }}>Presidents' Legacy</h2>
+        <div className="profile-cards d-flex justify-content-evenly align-items-center">
+          {profileObj.map((ele, index) => (
+            <PersonalProfile key={index} profileObj={ele} />
+          ))}
         </div>
       </div>
     </>

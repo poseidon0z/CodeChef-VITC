@@ -137,6 +137,11 @@
     padding: 8px;
     max-width: 151px;
   }
+
+  .profile-cards{
+    flex-direction: column;
+    gap: 20px;
+  }
 }
 
 @media screen and (max-width: 620px) {
@@ -289,12 +294,12 @@
   margin-top: auto;
 }
 
-.faculty-incharge {
+.faculty-incharge, .presidents {
   margin: 0 auto;
   padding: 32px 64px;
 }
 
-.faculty-incharge h2, .gallery h2{
+.faculty-incharge h2, .presidents h2, .gallery h2{
   box-sizing: border-box;
   background: rgba(0, 0, 0, 0);
   letter-spacing: 0;
@@ -315,12 +320,12 @@
     padding-bottom: 40px !important;
   }
 
-  .faculty-incharge {
+  .faculty-incharge, .presidents {
     margin: 0 auto;
     padding: 20px 5px;
   }
 
-  .faculty-incharge h2 {
+  .faculty-incharge h2, .presidents h2 {
     margin-bottom: 1.75rem !important;
   }
 
@@ -335,10 +340,6 @@
   .content-para {
     font-size: 13px;
   }
-
-  .profile-card{
-    width: 300px !important;
-  }
 }
 
 @media screen and (max-width: 840px) {
@@ -346,35 +347,4 @@
     flex-direction: column !important;
     padding: 0 2rem !important;
   }
-
-  .president-cards{
-    flex-direction: column !important;
-    width: 250px !important;
-  }
-}
-
-.presidents {
-  padding: 1em;
-  background-image: linear-gradient(#c6dcfea3, #d8e6ff99);
-}
-
-.presidents h2 {
-  box-sizing: border-box;
-  background: rgba(0, 0, 0, 0);
-  letter-spacing: 0;
-  color: #4a4a4a;
-  outline: 0;
-  display: block;
-  font-size: 2rem !important;
-  font-weight: bold;
-  margin: 0.5em;
-}
-
-.president-cards{
-  padding: 0 5rem;;
-}
-
-.profile-card{
-  width: 400px !important;
-  padding: 1rem 0 !important;
 }

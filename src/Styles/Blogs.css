@@ -1,0 +1,32 @@
+.blogs-header {
+    padding-top: 6rem;
+    background-image: linear-gradient(#c6dcfea3, #d8e6ff99);
+    padding-bottom: 50px;
+}
+
+.blogs-header h1{
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0);
+    letter-spacing: 0;
+    color: #4a4a4a;
+    outline: 0;
+    display: block;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem !important;
+}
+
+.blog-cards{
+    margin: 2rem auto !important;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1024px) {
+    .blogs-header {
+        padding-top: 9.5rem;
+    }
+}

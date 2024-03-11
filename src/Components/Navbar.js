@@ -60,9 +60,9 @@ const Navbar = () => {
                       </ul>
                     </li>
                     <li className="nav-item mx-2">
-                      <a href="/" className="nav-link active">
+                      <Link to="/blogs" className="nav-link active">
                         Blogs
-                      </a>
+                      </Link>
                     </li>
                     <li className="nav-item dropdown mx-2">
                       <a

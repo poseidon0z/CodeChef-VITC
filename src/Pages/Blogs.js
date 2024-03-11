@@ -1,32 +1,32 @@
-import React from "react";
-import "../Styles/Blogs.css";
-import BlogCard from "../Components/BlogCard";
-import Expo24 from "../Asstes/Blogs/expo-24.jpg";
-import TShirt from "../Asstes/Blogs/tShirt.jpg";
-import PreVibrance24 from "../Asstes/Blogs/preVibrance-24.jpg";
+import React from 'react';
+import '../Styles/Blogs.css';
+import BlogCard from '../Components/BlogCard';
+import Expo24 from '../Asstes/Blogs/expo-24.jpg';
+import TShirt from '../Asstes/Blogs/tShirt.jpg';
+import PreVibrance24 from '../Asstes/Blogs/preVibrance-24.jpg';
 
 const Blogs = () => {
   const blogsArr = [
     {
       blogImg: Expo24,
-      blogHeading: "Expo 2024",
+      blogHeading: 'Expo 2024',
       blogText:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat nobis",
-      blogLink: "/",
+        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat nobis',
+      blogLink: '/expo24',
     },
     {
       blogImg: TShirt,
-      blogHeading: "Club T-Shirt",
+      blogHeading: 'Club T-Shirt',
       blogText:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat nobis",
-      blogLink: "/",
+        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat nobis',
+      blogLink: '/',
     },
     {
       blogImg: PreVibrance24,
-      blogHeading: "Pre-Vibrance 2024",
+      blogHeading: 'Pre-Vibrance 2024',
       blogText:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat nobis",
-      blogLink: "/",
+        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat nobis',
+      blogLink: '/',
     },
   ];
   return (

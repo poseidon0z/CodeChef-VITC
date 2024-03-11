@@ -1,0 +1,83 @@
+.blogpage {
+    padding-top: 70px;
+    background-color: #d8e6ff99;
+}
+
+.blogpage h1 {
+    margin: 0;
+    padding-top: 25px;
+    box-sizing: border-box;
+    letter-spacing: 0;
+    color: #4a4a4a;
+    outline: 0;
+    display: block;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    background: url('../../Asstes/verylightpeaksdown.svg');
+    height: 3em;
+    background-position: 10% 80%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.blogpage h2 {
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+    letter-spacing: 0;
+    color: #4a4a4a;
+    outline: 0;
+    display: block;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.blog-content {
+    background-color: #d8e6ff;
+}
+
+.blog-content p {
+    margin: 0;
+    width: 50em;
+    padding: 30px;
+    margin: auto;
+    max-width: 100vw;
+    line-height: 28px;
+    padding-bottom: 0;
+}
+
+.blogcarousel {
+    background: url('../../Asstes/verylightpeaksbottom.svg');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 0 2rem;
+    padding-bottom: 80px;
+    margin: 0;
+}
+
+.blogcarousel h2 {
+    color: #fff;
+    padding: 0.5rem;
+}
+
+.more-section {
+    padding-top: 45px;
+    background: url('../../Asstes/verylightpeakstop.svg');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.other-blogs {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    justify-content: center;
+    gap: 25px;
+    padding: 1em;
+}

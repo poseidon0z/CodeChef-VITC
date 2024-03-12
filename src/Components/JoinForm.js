@@ -1,7 +1,6 @@
 import '../Styles/JoinForm.css';
 
 const JoinForm = () => {
-  var thing = false;
   const submitted = (event) => {
     event.preventDefault();
 

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const BlogCard = ({ blogData }) => {
@@ -9,9 +10,9 @@ const BlogCard = ({ blogData }) => {
         <div class="card-body">
           <h5 class="card-title">{blogData.blogHeading}</h5>
           <p class="card-text">{blogData.blogText}</p>
-          <a href={blogData.blogLink} class="">
+          <Link to={blogData.blogLink} target="_Blank" class="">
             Read More...
-          </a>
+          </Link>
         </div>
       </div>
     </BlogCardStyle>

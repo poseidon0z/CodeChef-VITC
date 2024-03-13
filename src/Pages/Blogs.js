@@ -9,24 +9,24 @@ const Blogs = () => {
   const blogsArr = [
     {
       blogImg: Expo24,
-      blogHeading: 'Expo 2024',
+      blogHeading: "Expo 2024",
       blogText:
-        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat nobis',
-      blogLink: '/expo24',
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat nobis",
+      blogLink: "/expo24",
     },
     {
       blogImg: TShirt,
-      blogHeading: 'Club T-Shirt',
+      blogHeading: "Club T-Shirt",
       blogText:
-        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat nobis',
-      blogLink: '/',
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat nobis",
+      blogLink: "/tshirt",
     },
     {
       blogImg: PreVibrance24,
-      blogHeading: 'Pre-Vibrance 2024',
+      blogHeading: "Pre-Vibrance 2024",
       blogText:
-        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat nobis',
-      blogLink: '/',
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat nobis",
+      blogLink: "/previbrance24",
     },
   ];
   return (

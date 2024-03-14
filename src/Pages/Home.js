@@ -2,30 +2,37 @@ import React from 'react';
 import '../Styles/Home.css';
 import defaultPic from '../Asstes/profileDefault.png';
 import facultyPic from '../Asstes/tempPic.jpg';
-import HeroCarousel from "../Components/HeroCarousel";
-import GalleryCarousel from "../Components/GalleryCarousel";
-import PersonalProfile from "../Components/PersonalProfile";
-import siddhartTiwari from "../Asstes/siddhartTiwari.jpeg";
+import HeroCarousel from '../Components/HeroCarousel';
+import GalleryCarousel from '../Components/GalleryCarousel';
+import PersonalProfile from '../Components/PersonalProfile';
+import siddhartTiwari from '../Asstes/siddhartTiwari.jpeg';
+
+import { FaTrophy } from 'react-icons/fa6';
+import { IoMdBrush } from 'react-icons/io';
+import { TbWorld } from 'react-icons/tb';
+import { FaHandshake } from 'react-icons/fa6';
+import { GiTie } from 'react-icons/gi';
+import { GiTwoCoins } from 'react-icons/gi';
 
 const Home = () => {
   const profileObj = [
     {
-      name: "Siddhart Tiwari",
+      name: 'Siddhart Tiwari',
       img: siddhartTiwari,
-      email: "siddharth.tiwari2021@vitstudent.ac.in",
-      position: "President 2023-24",
-      regNo: "21BCE1242",
-      linkedIn: "https://www.linkedin.com/in/siddharthtiwarii/",
-      instagram: "",
+      email: 'siddharth.tiwari2021@vitstudent.ac.in',
+      position: 'President 2023-24',
+      regNo: '21BCE1242',
+      linkedIn: 'https://www.linkedin.com/in/siddharthtiwarii/',
+      instagram: '',
     },
     {
-      name: "Siddhart Tiwari",
+      name: 'Siddhart Tiwari',
       img: siddhartTiwari,
-      email: "siddharth.tiwari2021@vitstudent.ac.in",
-      position: "President 2023-24",
-      regNo: "21BCE1242",
-      linkedIn: "https://www.linkedin.com/in/siddharthtiwarii/",
-      instagram: "",
+      email: 'siddharth.tiwari2021@vitstudent.ac.in',
+      position: 'President 2023-24',
+      regNo: '21BCE1242',
+      linkedIn: 'https://www.linkedin.com/in/siddharthtiwarii/',
+      instagram: '',
     },
   ];
 
@@ -59,7 +66,7 @@ const Home = () => {
                   <a
                     href="/"
                     className="connection-link"
-                    style={{ textDecoration: "none" }}
+                    style={{ textDecoration: 'none' }}
                     target="_blank"
                   >
                     <button>
@@ -75,7 +82,7 @@ const Home = () => {
                   <a
                     href="/"
                     className="connection-link"
-                    style={{ textDecoration: "none" }}
+                    style={{ textDecoration: 'none' }}
                     target="_blank"
                   >
                     <button>
@@ -108,10 +115,11 @@ const Home = () => {
             <div className="depatment-card">
               <div className="card-top">
                 <h3>Competitive Programming</h3>
-                <img
+                {/* <img
                   src="https://cdn.codechef.com/images/self-learning/icons/python.svg"
                   alt="CP Logo"
-                />
+                /> */}
+                <FaTrophy color="gold" size="48px" />
               </div>
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet
@@ -125,9 +133,9 @@ const Home = () => {
                     src={defaultPic}
                     className="rounded-circle mx-1"
                     style={{
-                      height: "38px",
-                      width: "38px",
-                      objectFit: "cover",
+                      height: '38px',
+                      width: '38px',
+                      objectFit: 'cover',
                     }}
                     alt="Lead Profile Pic"
                   />
@@ -135,14 +143,14 @@ const Home = () => {
                     <p
                       className="card-subtitle"
                       style={{
-                        fontWeight: "500",
-                        fontSize: "14px !important",
-                        color: "#546e7a !important",
+                        fontWeight: '500',
+                        fontSize: '14px !important',
+                        color: '#546e7a !important',
                       }}
                     >
                       <a
                         href="/"
-                        style={{ textDecoration: "none", color: "inherit" }}
+                        style={{ textDecoration: 'none', color: 'inherit' }}
                       >
                         Nikhil Iyer
                       </a>
@@ -154,9 +162,9 @@ const Home = () => {
                     src={defaultPic}
                     className="rounded-circle mx-1"
                     style={{
-                      height: "38px",
-                      width: "38px",
-                      objectFit: "cover",
+                      height: '38px',
+                      width: '38px',
+                      objectFit: 'cover',
                     }}
                     alt="Lead Profile Pic"
                   />
@@ -164,14 +172,14 @@ const Home = () => {
                     <p
                       className="card-subtitle"
                       style={{
-                        fontWeight: "500",
-                        fontSize: "14px !important",
-                        color: "#546e7a !important",
+                        fontWeight: '500',
+                        fontSize: '14px !important',
+                        color: '#546e7a !important',
                       }}
                     >
                       <a
                         href="/"
-                        style={{ textDecoration: "none", color: "inherit" }}
+                        style={{ textDecoration: 'none', color: 'inherit' }}
                       >
                         Aditi Jha
                       </a>
@@ -184,10 +192,7 @@ const Home = () => {
             <div className="depatment-card">
               <div className="card-top">
                 <h3>Design & Content</h3>
-                <img
-                  src="https://cdn.codechef.com/images/self-learning/icons/python.svg"
-                  alt="CP Logo"
-                />
+                <IoMdBrush color="#2E3444" size="48px" />
               </div>
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet
@@ -201,9 +206,9 @@ const Home = () => {
                     src={defaultPic}
                     className="rounded-circle mx-1"
                     style={{
-                      height: "38px",
-                      width: "38px",
-                      objectFit: "cover",
+                      height: '38px',
+                      width: '38px',
+                      objectFit: 'cover',
                     }}
                     alt="Lead Profile Pic"
                   />
@@ -211,14 +216,14 @@ const Home = () => {
                     <p
                       className="card-subtitle"
                       style={{
-                        fontWeight: "500",
-                        fontSize: "14px !important",
-                        color: "#546e7a !important",
+                        fontWeight: '500',
+                        fontSize: '14px !important',
+                        color: '#546e7a !important',
                       }}
                     >
                       <a
                         href="/"
-                        style={{ textDecoration: "none", color: "inherit" }}
+                        style={{ textDecoration: 'none', color: 'inherit' }}
                       >
                         Nikhil Iyer
                       </a>
@@ -230,9 +235,9 @@ const Home = () => {
                     src={defaultPic}
                     className="rounded-circle mx-1"
                     style={{
-                      height: "38px",
-                      width: "38px",
-                      objectFit: "cover",
+                      height: '38px',
+                      width: '38px',
+                      objectFit: 'cover',
                     }}
                     alt="Lead Profile Pic"
                   />
@@ -240,14 +245,14 @@ const Home = () => {
                     <p
                       className="card-subtitle"
                       style={{
-                        fontWeight: "500",
-                        fontSize: "14px !important",
-                        color: "#546e7a !important",
+                        fontWeight: '500',
+                        fontSize: '14px !important',
+                        color: '#546e7a !important',
                       }}
                     >
                       <a
                         href="/"
-                        style={{ textDecoration: "none", color: "inherit" }}
+                        style={{ textDecoration: 'none', color: 'inherit' }}
                       >
                         Aditi Jha
                       </a>
@@ -260,10 +265,7 @@ const Home = () => {
             <div className="depatment-card">
               <div className="card-top">
                 <h3>Web Development</h3>
-                <img
-                  src="https://cdn.codechef.com/images/self-learning/icons/python.svg"
-                  alt="CP Logo"
-                />
+                <TbWorld color="#2E5AA5" size="48px" />
               </div>
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet
@@ -277,9 +279,9 @@ const Home = () => {
                     src={defaultPic}
                     className="rounded-circle mx-1"
                     style={{
-                      height: "38px",
-                      width: "38px",
-                      objectFit: "cover",
+                      height: '38px',
+                      width: '38px',
+                      objectFit: 'cover',
                     }}
                     alt="Lead Profile Pic"
                   />
@@ -287,14 +289,14 @@ const Home = () => {
                     <p
                       className="card-subtitle"
                       style={{
-                        fontWeight: "500",
-                        fontSize: "14px !important",
-                        color: "#546e7a !important",
+                        fontWeight: '500',
+                        fontSize: '14px !important',
+                        color: '#546e7a !important',
                       }}
                     >
                       <a
                         href="/"
-                        style={{ textDecoration: "none", color: "inherit" }}
+                        style={{ textDecoration: 'none', color: 'inherit' }}
                       >
                         Nikhil Iyer
                       </a>
@@ -306,9 +308,9 @@ const Home = () => {
                     src={defaultPic}
                     className="rounded-circle mx-1"
                     style={{
-                      height: "38px",
-                      width: "38px",
-                      objectFit: "cover",
+                      height: '38px',
+                      width: '38px',
+                      objectFit: 'cover',
                     }}
                     alt="Lead Profile Pic"
                   />
@@ -316,14 +318,14 @@ const Home = () => {
                     <p
                       className="card-subtitle"
                       style={{
-                        fontWeight: "500",
-                        fontSize: "14px !important",
-                        color: "#546e7a !important",
+                        fontWeight: '500',
+                        fontSize: '14px !important',
+                        color: '#546e7a !important',
                       }}
                     >
                       <a
                         href="/"
-                        style={{ textDecoration: "none", color: "inherit" }}
+                        style={{ textDecoration: 'none', color: 'inherit' }}
                       >
                         Aditi Jha
                       </a>
@@ -336,10 +338,7 @@ const Home = () => {
             <div className="depatment-card">
               <div className="card-top">
                 <h3>Marketing & Out Reach</h3>
-                <img
-                  src="https://cdn.codechef.com/images/self-learning/icons/python.svg"
-                  alt="CP Logo"
-                />
+                <FaHandshake color="#2E3444" size="48px" />
               </div>
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet
@@ -353,9 +352,9 @@ const Home = () => {
                     src={defaultPic}
                     className="rounded-circle mx-1"
                     style={{
-                      height: "38px",
-                      width: "38px",
-                      objectFit: "cover",
+                      height: '38px',
+                      width: '38px',
+                      objectFit: 'cover',
                     }}
                     alt="Lead Profile Pic"
                   />
@@ -363,14 +362,14 @@ const Home = () => {
                     <p
                       className="card-subtitle"
                       style={{
-                        fontWeight: "500",
-                        fontSize: "14px !important",
-                        color: "#546e7a !important",
+                        fontWeight: '500',
+                        fontSize: '14px !important',
+                        color: '#546e7a !important',
                       }}
                     >
                       <a
                         href="/"
-                        style={{ textDecoration: "none", color: "inherit" }}
+                        style={{ textDecoration: 'none', color: 'inherit' }}
                       >
                         Nikhil Iyer
                       </a>
@@ -382,9 +381,9 @@ const Home = () => {
                     src={defaultPic}
                     className="rounded-circle mx-1"
                     style={{
-                      height: "38px",
-                      width: "38px",
-                      objectFit: "cover",
+                      height: '38px',
+                      width: '38px',
+                      objectFit: 'cover',
                     }}
                     alt="Lead Profile Pic"
                   />
@@ -392,14 +391,14 @@ const Home = () => {
                     <p
                       className="card-subtitle"
                       style={{
-                        fontWeight: "500",
-                        fontSize: "14px !important",
-                        color: "#546e7a !important",
+                        fontWeight: '500',
+                        fontSize: '14px !important',
+                        color: '#546e7a !important',
                       }}
                     >
                       <a
                         href="/"
-                        style={{ textDecoration: "none", color: "inherit" }}
+                        style={{ textDecoration: 'none', color: 'inherit' }}
                       >
                         Aditi Jha
                       </a>
@@ -412,10 +411,7 @@ const Home = () => {
             <div className="depatment-card">
               <div className="card-top">
                 <h3>Managment</h3>
-                <img
-                  src="https://cdn.codechef.com/images/self-learning/icons/python.svg"
-                  alt="CP Logo"
-                />
+                <GiTie color="red" size="48px" />
               </div>
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet
@@ -429,9 +425,9 @@ const Home = () => {
                     src={defaultPic}
                     className="rounded-circle mx-1"
                     style={{
-                      height: "38px",
-                      width: "38px",
-                      objectFit: "cover",
+                      height: '38px',
+                      width: '38px',
+                      objectFit: 'cover',
                     }}
                     alt="Lead Profile Pic"
                   />
@@ -439,14 +435,14 @@ const Home = () => {
                     <p
                       className="card-subtitle"
                       style={{
-                        fontWeight: "500",
-                        fontSize: "14px !important",
-                        color: "#546e7a !important",
+                        fontWeight: '500',
+                        fontSize: '14px !important',
+                        color: '#546e7a !important',
                       }}
                     >
                       <a
                         href="/"
-                        style={{ textDecoration: "none", color: "inherit" }}
+                        style={{ textDecoration: 'none', color: 'inherit' }}
                       >
                         Nikhil Iyer
                       </a>
@@ -458,9 +454,9 @@ const Home = () => {
                     src={defaultPic}
                     className="rounded-circle mx-1"
                     style={{
-                      height: "38px",
-                      width: "38px",
-                      objectFit: "cover",
+                      height: '38px',
+                      width: '38px',
+                      objectFit: 'cover',
                     }}
                     alt="Lead Profile Pic"
                   />
@@ -468,14 +464,14 @@ const Home = () => {
                     <p
                       className="card-subtitle"
                       style={{
-                        fontWeight: "500",
-                        fontSize: "14px !important",
-                        color: "#546e7a !important",
+                        fontWeight: '500',
+                        fontSize: '14px !important',
+                        color: '#546e7a !important',
                       }}
                     >
                       <a
                         href="/"
-                        style={{ textDecoration: "none", color: "inherit" }}
+                        style={{ textDecoration: 'none', color: 'inherit' }}
                       >
                         Aditi Jha
                       </a>
@@ -488,10 +484,7 @@ const Home = () => {
             <div className="depatment-card">
               <div className="card-top">
                 <h3>Finance</h3>
-                <img
-                  src="https://cdn.codechef.com/images/self-learning/icons/python.svg"
-                  alt="CP Logo"
-                />
+                <GiTwoCoins color="#D89241" size="48px" />
               </div>
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet
@@ -505,9 +498,9 @@ const Home = () => {
                     src={defaultPic}
                     className="rounded-circle mx-1"
                     style={{
-                      height: "38px",
-                      width: "38px",
-                      objectFit: "cover",
+                      height: '38px',
+                      width: '38px',
+                      objectFit: 'cover',
                     }}
                     alt="Lead Profile Pic"
                   />
@@ -515,14 +508,14 @@ const Home = () => {
                     <p
                       className="card-subtitle"
                       style={{
-                        fontWeight: "500",
-                        fontSize: "14px !important",
-                        color: "#546e7a !important",
+                        fontWeight: '500',
+                        fontSize: '14px !important',
+                        color: '#546e7a !important',
                       }}
                     >
                       <a
                         href="/"
-                        style={{ textDecoration: "none", color: "inherit" }}
+                        style={{ textDecoration: 'none', color: 'inherit' }}
                       >
                         Nikhil Iyer
                       </a>
@@ -534,9 +527,9 @@ const Home = () => {
                     src={defaultPic}
                     className="rounded-circle mx-1"
                     style={{
-                      height: "38px",
-                      width: "38px",
-                      objectFit: "cover",
+                      height: '38px',
+                      width: '38px',
+                      objectFit: 'cover',
                     }}
                     alt="Lead Profile Pic"
                   />
@@ -544,14 +537,14 @@ const Home = () => {
                     <p
                       className="card-subtitle"
                       style={{
-                        fontWeight: "500",
-                        fontSize: "14px !important",
-                        color: "#546e7a !important",
+                        fontWeight: '500',
+                        fontSize: '14px !important',
+                        color: '#546e7a !important',
                       }}
                     >
                       <a
                         href="/"
-                        style={{ textDecoration: "none", color: "inherit" }}
+                        style={{ textDecoration: 'none', color: 'inherit' }}
                       >
                         Aditi Jha
                       </a>
@@ -567,30 +560,30 @@ const Home = () => {
       <div
         className="gallery"
         style={{
-          maxWidth: "100%",
-          backgroundColor: "#2e3444",
-          paddingBottom: "2rem",
+          maxWidth: '100%',
+          backgroundColor: '#2e3444',
+          paddingBottom: '2rem',
         }}
       >
-        <h2 style={{ textAlign: "center", color: "#fff", paddingTop: "2rem" }}>
+        <h2 style={{ textAlign: 'center', color: '#fff', paddingTop: '2rem' }}>
           Gallery
         </h2>
         <GalleryCarousel />
       </div>
       <div className="faculty-incharge">
-        <h2 style={{ textAlign: "center" }}>Faculty Incharge</h2>
+        <h2 style={{ textAlign: 'center' }}>Faculty Incharge</h2>
         <div
           className="faculty-content d-flex align-items-center justify-content-center gap-3"
-          style={{ padding: "0 5rem" }}
+          style={{ padding: '0 5rem' }}
         >
           <img
             src={facultyPic}
             alt="Faculty Incharge"
             className=""
             style={{
-              width: "450px",
-              borderRadius: "10px",
-              boxShadow: "0 4px 12px rgba(207,216,220,.4) !important",
+              width: '450px',
+              borderRadius: '10px',
+              boxShadow: '0 4px 12px rgba(207,216,220,.4) !important',
             }}
           />
           <div>
@@ -602,14 +595,14 @@ const Home = () => {
               Fugit vel obcaecati iusto non eligendi! Veritatis, minima et
               reiciendis blanditiis atque ipsum est natus.
             </p>
-            <p style={{ fontSize: "14px", fontWeight: "600" }}>
+            <p style={{ fontSize: '14px', fontWeight: '600' }}>
               - Vishal Kumar Yadav
             </p>
           </div>
         </div>
       </div>
       <div className="presidents">
-        <h2 style={{ textAlign: "center" }}>Presidents' Legacy</h2>
+        <h2 style={{ textAlign: 'center' }}>Presidents' Legacy</h2>
         <div className="profile-cards d-flex justify-content-evenly align-items-center">
           {profileObj.map((ele, index) => (
             <PersonalProfile key={index} profileObj={ele} />
